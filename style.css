@@ -39,6 +39,7 @@
     transform: translateX(25%)
 	}
 }
+
 .container {
 	display: flex;
 	justify-content: flex-end;
