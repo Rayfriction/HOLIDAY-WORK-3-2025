@@ -39,3 +39,35 @@
     transform: translateX(25%)
 	}
 }
+.container {
+	display: flex;
+	justify-content: flex-end;
+	padding: 20px;
+}
+
+.right-image{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	animation: rotate 20s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+}
