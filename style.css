@@ -1,8 +1,22 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	paddinng: 1.5rem 10%;
+	background-color: #ffffff;
+	border-bottom: 1px solid #e2e8f0;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+
 .logo {
-	color: white;
+	color: #1e202c;
 	font-size: 7rem;
-	font-family: 'Inter',sans-serif;
-	font-weight: bold;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: 800;
+	font-size: 1.5rem;
+	text-decoration
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	cursor: pointer;
@@ -12,13 +26,6 @@
 	color: var(--primary);
 	transition: 0.3s ease;
 }
-
-
-
-
-
-
-
 
 
 
