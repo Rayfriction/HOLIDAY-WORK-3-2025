@@ -112,11 +112,13 @@ nav a: hover {
 }
 
 .right-image{
-	width: 200px;
-	height: 200px;
+	float: right;
+	margin-right: 20%;
+	width: 250px;
+	height: 250px;
 	object-fit: cover;
 	border-radius: 50%;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 3px solid rgba(255, 255, 255, 0.2);
 	animation: rotate 20s linear infinite;
 }
 table {
