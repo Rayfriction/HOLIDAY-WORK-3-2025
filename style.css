@@ -154,7 +154,7 @@ th {
 	display: flex;
 	height: 100%;
 	scroll_behavior: smooth;
-	overflow-x: auto
+	overflow-x: scroll;
 	scroll-snap-type: x mandatory;
 }
 
