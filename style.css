@@ -131,13 +131,13 @@ table {
 
 th, td {
 	padding: 15px;
-	border: 1px solid rgba(255, 255, 255, 0.5)
+	border: 1px solid rgba(255, 255, 255, 0.5);
 	text-align: center;
 	color: white;
 }
 
 th {
-	background-color: rgba(255, 255, 255, 0.1)
+	background-color: rgba(255, 255, 255, 0.1);
 }
 
 .slide-container {
@@ -176,7 +176,7 @@ th {
 	position: absolute;
 	bottom: 40px;
 	left: 50%;
-	transform: translateX(-50%)
+	transform: translateX(-50%);
 	background: rgba(0,0,0,0.6);
 	color: white;
 	padding: 10px 20px;
