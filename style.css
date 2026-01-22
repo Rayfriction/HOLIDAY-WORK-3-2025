@@ -185,6 +185,47 @@ th {
 	font-family: sans-serif;
 }
 
+.table-container {
+	padding: 40px 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
-	
+.table-title {
+	color: white;
+	margin-bottom: 20px;
+	font-family: 'Montserrat' , sans-serif;
+	letter-spacing: 2px;
+}
+
+.glass-table {
+	width: 100%;
+	max-width: 900px;
+	border-collpse: collapse;
+	background: rgba(255, 255, 255, 0.05);
+	backdrop-filter: blur(10px);
+	border-radius: 15px;
+	overflow: hidden;
+	border: 1px solid rgba(255, 255, 255, 0.1)
+}
+
+.glass-table th, .glass-table td {
+	padding: 20px;
+	text-align: left;
+	color: white;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.05)
+}
+
+.glass-table th {
+	background: rgba(255, 255, 255, 0.1);
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
+}
+
+.glass-table tr:hover {
+	background: rgba(255, 255, 255, 0.1);
+	transition: 0.3s;
+}
 
