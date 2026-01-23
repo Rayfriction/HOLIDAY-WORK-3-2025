@@ -229,3 +229,25 @@ th {
 	transition: 0.3s;
 }
 
+.duties-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minimax(250px, 1fr));
+	gap: 20px;
+	padding: 40px;
+
+}
+
+.duty-card {
+	background: rgba(255, 255, 255, 0.05)
+	backdrop-filter: blue(10px);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-raduius: 20px;
+	padding: 25px;
+	color: white;
+	transition: transform 0.3s ease;
+}
+
+.duty-card: hover {
+	transform: translateY(-10px)
+	background: rgba(255, 255, 255, 0.1);
+}
