@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	paddinng: 1.5rem 10%;
+	padding: 1.5rem 10%;
 	background-color: #ffffff;
 	border-bottom: 1px solid #e2e8f0;
 	position: sticky;
@@ -202,7 +202,7 @@ th {
 .glass-table {
 	width: 100%;
 	max-width: 900px;
-	border-collpse: collapse;
+	border-collapse: collapse;
 	background: rgba(255, 255, 255, 0.05);
 	backdrop-filter: blur(10px);
 	border-radius: 15px;
@@ -241,7 +241,7 @@ th {
 	background: rgba(255, 255, 255, 0.05)
 	backdrop-filter: blue(10px);
 	border: 1px solid rgba(255, 255, 255, 0.1);
-	border-raduius: 20px;
+	border-radius: 20px;
 	padding: 25px;
 	color: white;
 	transition: transform 0.3s ease;
