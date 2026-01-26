@@ -304,15 +304,14 @@ th {
 .hobby-card {
 	background: rgba(255, 255, 255, 0.05);
 	backdrop-filter: blur(12px);
-	-webkit-backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur (12px);
 	border: 1px solid rgba(255, 255, 255, 0.1);
 	border-radius: 20px;
 	padding: 30px;
-	width: 300px;
+	transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 	color: white;
-	text-align: center;
-	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-	transition: transform 0.3s ease, background 0.3s ease;
+	position: relative;
+	overflow: hidden;
 }
 
 .hobby-card:hover {
