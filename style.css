@@ -301,6 +301,38 @@ th {
 	line-height: 1.5;
 }
 
+.hobby-card {
+	background: rgba(255, 255, 255, 0.05);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 20px;
+	padding: 30px;
+	width: 300px;
+	color: white;
+	text-align: center;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+	transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.hobby-card:hover {
+	transform: tanslateY(-10px);
+	background: rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.hobby-card h3 {
+	margin-top: 0;
+	font-size: 1.5rem;
+	color: #00d4ff;
+}
+
+.hobby-card p {
+	font-size: 0.9rem;
+	opacity: 0.8;
+	line-height: 1.6;
+}
+
 .skill-wrapper {
 	margin-top: 20px;
 	text-align: left;
@@ -331,7 +363,6 @@ th {
 	border-radius: 10px;
 	transition: width 1s ease-in-out;
 }
-
 
 
 
